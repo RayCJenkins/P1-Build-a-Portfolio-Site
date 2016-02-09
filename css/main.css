@@ -1,0 +1,42 @@
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -box-sizing: border-box;
+}
+@media only screen and (max-width: 1200px){
+	p {
+		display: none;
+	}
+}
+
+img, embed, object, video {
+	max-width: 100%;
+}
+
+nav a, button {
+	min-width: 48px;
+	min-height: 48px;
+}
+
+body{
+    font-family: 'Roboto Slab', serif;
+    color: #747704; 
+    font-weight: 300;
+}
+
+.alt-color{
+    color: #BCBBBB;
+}
+
+.slim-font{
+    font-weight: 100
+}
+
+.super-size{
+    font-size: 72px;
+}
+
+.main-logo{
+    margin-top: 20px;
+}

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>P1 Portfolio Site</title>
+  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/normalize.css">
+  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:100,300' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="js/jquery-1.12.0.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+</head>
+<body>
+  <div class="container">
+    <div class="grid">
+      <div class="row">
+        <div class="col-md-3">
+          <img class="main-logo" src="images/rcj_logo.jpg" alt="Logo">
+        </div>
+        <div class="col-md-9 text-uppercase text-right">
+          <h1 class="super-size slim-font">Raymond Jenkins</h1>
+          <h4>Front-End Ninja</h2>
+        </div>
+      </div>
+      <div class=row>
+        <div class="col-md-12">
+          <hr>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <img class="img-responsive" src="images/raygraphic.jpg" alt="Main Image">
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-12">
+          <h2 class="alt-color">Featured Work</h2>
+        </div>
+      </div>
+      <div class="row text-center">
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/towel_rabbit.jpg" data-toggle="modal" data-target="#RabbitTowel" alt="Rabbit">
+          <h3 >Rabbit</h1>
+          <a href="https://github.com/udacity/Appify/">https://github.com/udacity/Appify/</a>
+        </div>
+        <div class="col-md-4">
+          <img class="img-responsive" src="images/aztec_hurricane_warning.jpg" data-toggle="modal" data-target="#AztecWarning" alt="Aztect">
+          <h3>Aztec Warning</h1>
+          <a href="https://github.com/udacity/Sunflower/">https://github.com/udacity/Sunflower/</a>
+        </div>
+        <div class = "col-md-4">
+          <img class="img-responsive" src="images/escape.jpg" data-toggle="modal" data-target="#MyFordEscape" alt="Ford Escape">
+          <h3 >Escape</h1>
+          <a href="https://github.com/udacity/Bokeh/">https://github.com/udacity/Bokeh/</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+<!-- Modal -->
+<div class="modal fade" id="RabbitTowel" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Towel RabbitRabit</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/towel_rabbit.jpg">
+        This is a towel rabbit. It was created by our maid in Cozumel. She did a diffent animal for us each day. It was always nice to come see what she had left for us that day.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="AztecWarning" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Aztec Hurricane Early Warning System</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/aztec_hurricane_warning.jpg">
+        This is purpoted to be an early warning system for the Aztecs living on Cozumel. When high winds would hit the island this would whistle loud enough to give the people of the island time to take cover before the hurricane made landfall.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="MyFordEscape" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h4 class="modal-title" id="myModalLabel">Ford Escape</h4>
+      </div>
+      <div class="modal-body">
+        <img class="img-responsive" src="images/escape.jpg">
+        This is our Ford Escape. We had to sell it. We miss it very much.
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
