@@ -4,13 +4,11 @@
     -ms-box-sizing: border-box;
     -box-sizing: border-box;
 }
-@media only screen and (max-width: 1200px){
-	p {
-		display: none;
-	}
-}
 
-img, embed, object, video {
+img, 
+embed, 
+object, 
+video {
 	max-width: 100%;
 }
 
@@ -19,24 +17,24 @@ nav a, button {
 	min-height: 48px;
 }
 
-body{
-    font-family: 'Roboto Slab', serif;
+body {
+    font-family: "Roboto Slab", serif;
     color: #747704; 
     font-weight: 300;
 }
 
-.alt-color{
-    color: #BCBBBB;
+.alt-color {
+    color: #bcbbbb;
 }
 
-.slim-font{
+.slim-font {
     font-weight: 100
 }
 
-.super-size{
+.super-size {
     font-size: 72px;
 }
 
-.main-logo{
+.main-logo {
     margin-top: 20px;
 }
